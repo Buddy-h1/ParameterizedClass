@@ -385,14 +385,14 @@ int main() {
 	std::cout << "-------------------" << std::endl;
 
 	{
-	Matrix<Plenty<int>> matrix_1(3, 2, { {8, 9, 12}, { 7, 3, 7 }, { 15, 8, 2 }, { 13, 1, 7 }, { 15, 8, 2 }, { 15, 8, 2 } });
-	Matrix<Plenty<int>> matrix_2(3, 2, { {1, 5, 6}, { 1, 3, 4 }, { 3, 2, 5 }, { 9, 2, 1 } , { 8, 4, 1, 5, 3 } , { 2, 21, 14 } });
-	std::cout << "matrix_1" << std::endl << matrix_1 << std::endl;
-	std::cout << "matrix_2" << std::endl << matrix_2 << std::endl;
-	Matrix<Plenty<int>> matrix_3 = matrix_1 + matrix_2;
-	std::cout << "matrix_1 + matrix_2" << std::endl << matrix_3 << std::endl;
-	matrix_1 = matrix_2;
-	std::cout << "matrix_1 = matrix_2; matrix_1: " << std::endl << matrix_1 << std::endl;
+		Matrix<Plenty<int>> matrix_1(3, 2, { {8, 9, 12}, { 7, 3, 7 }, { 15, 8, 2 }, { 13, 1, 7 }, { 15, 8, 2 }, { 15, 8, 2 } });
+		Matrix<Plenty<int>> matrix_2(3, 2, { {1, 5, 6}, { 1, 3, 4 }, { 3, 2, 5 }, { 9, 2, 1 } , { 8, 4, 1, 5, 3 } , { 2, 21, 14 } });
+		std::cout << "matrix_1" << std::endl << matrix_1 << std::endl;
+		std::cout << "matrix_2" << std::endl << matrix_2 << std::endl;
+		Matrix<Plenty<int>> matrix_3 = matrix_1 + matrix_2;
+		std::cout << "matrix_1 + matrix_2" << std::endl << matrix_3 << std::endl;
+		matrix_1 = matrix_2;
+		std::cout << "matrix_1 = matrix_2; matrix_1: " << std::endl << matrix_1 << std::endl;
 	}
 
 	std::cout << "-------------------" << std::endl;
